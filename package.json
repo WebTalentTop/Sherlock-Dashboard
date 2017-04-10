@@ -1,0 +1,48 @@
+{
+  "name": "sherlockintelligenceapp",
+  "version": "0.0.1",
+  "description": "Sherlock Intelligence App",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.4.5",
+    "@angular/compiler": "^2.4.5",
+    "@angular/core": "^2.4.5",
+    "@angular/forms": "^2.4.5",
+    "@angular/http": "^2.4.5",
+    "@angular/material": "2.0.0-beta.1",
+    "@angular/platform-browser": "^2.4.5",
+    "@angular/platform-browser-dynamic": "^2.4.5",
+    "@angular/router": "~3.0.1",
+    "@angular/upgrade": "^2.4.5",
+    "@swimlane/ngx-charts": "^4.3.0",
+    "angular-in-memory-web-api": "~0.1.1",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "express": "^4.14.0",
+    "hammerjs": "^2.0.8",
+    "ng2-material": "^0.8.1",
+    "ng2-toastr": "1.3.4",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-rc.4",
+    "shufflejs": "^4.0.2",
+    "systemjs": "0.19.39",
+    "zone.js": "^0.7.4"
+  },
+  "devDependencies": {
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0"
+  },
+  "engines": {
+    "node": "6.6.0"
+  }
+}

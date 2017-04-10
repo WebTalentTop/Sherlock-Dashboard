@@ -1,0 +1,32 @@
+.view-container {
+    width:100%;
+    padding-left: 15px 50px 15px 50px;
+    box-sizing: border-box;
+}
+.numbercard-wrapper {
+    width: 100%;
+    height: 200px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+}
+.mdcard{
+    overflow: hidden;
+        box-shadow: 1px 1px 6px 0px rgba(0,0,0,.16), 0 1px 5px 1px rgba(0,0,0,.12);
+}
+.mdcard-half {
+    width: calc(50% - 10px);
+    display: inline-block;
+}
+.mdcard-full {
+    width: 100%;
+    display: inline-block;
+}
+.mdcard-content {
+    width: 100%;
+    height:50vh;
+}
